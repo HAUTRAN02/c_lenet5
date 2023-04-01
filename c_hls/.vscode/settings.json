@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "tensor.h": "c"
+        "tensor.h": "c",
+        "stdio.h": "c",
+        "math.h": "c"
     }
 }

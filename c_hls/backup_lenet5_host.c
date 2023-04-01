@@ -1,6 +1,8 @@
 
+#define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #include <stdlib.h>
+#include "HLS/hls.h"
 #include "tensor.h"
 #include "backup_lenet5lib.c"
 
