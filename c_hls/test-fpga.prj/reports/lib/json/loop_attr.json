@@ -1,0 +1,2220 @@
+{
+  "name":"loop_attributes"
+  , "id":4294967295
+  , "nodes":
+  [
+    {
+      "name":"conv1"
+      , "id":2973260192
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":10
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"conv1.B0.runOnce"
+          , "id":2966007280
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"conv1.B1.start"
+          , "id":2966008912
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":10
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"conv1.B2"
+              , "id":2966008240
+              , "af":"174.96"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"6.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":13
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"conv1.B3"
+                  , "id":2966012560
+                  , "af":"174.96"
+                  , "br":"0"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"6.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: n/a"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                        , "line":14
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                  , "children":
+                  [
+                    {
+                      "name":"conv1.B4"
+                      , "id":2966010928
+                      , "af":"240.00"
+                      , "br":"1"
+                      , "ci":"0"
+                      , "fo":"Disabled"
+                      , "ii":"99"
+                      , "ll":"4"
+                      , "lt":"201.000000"
+                      , "mi":"99"
+                      , "pl":"Yes"
+                      , "tc":"28"
+                      , "tn":"0"
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure: n/a"
+                        }
+                      ]
+                      , "debug":
+                      [
+                        [
+                          {
+                            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                            , "line":15
+                          }
+                        ]
+                      ]
+                      , "type":"loop"
+                    }
+                  ]
+                }
+                , {
+                  "name":"conv1.B5"
+                  , "id":2966009872
+                  , "af":"240.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"1.000000"
+                  , "mi":"n/a"
+                  , "pl":"Yes"
+                  , "tc":"28"
+                  , "tn":"1"
+                  , "type":"bb"
+                }
+              ]
+            }
+            , {
+              "name":"conv1.B6"
+              , "id":2966010352
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"6"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"conv1.B7"
+          , "id":2966006704
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"relu1"
+      , "id":2973256992
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":27
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"relu1.B0.runOnce"
+          , "id":2966010448
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"relu1.B1.start"
+          , "id":2966010544
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":27
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"relu1.B2"
+              , "id":2966009776
+              , "af":"174.96"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"6.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":29
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"relu1.B3"
+                  , "id":2966010064
+                  , "af":"174.96"
+                  , "br":"0"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"6.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: n/a"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                        , "line":30
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                  , "children":
+                  [
+                    {
+                      "name":"relu1.B4"
+                      , "id":2966010160
+                      , "af":"240.00"
+                      , "br":"1"
+                      , "ci":"0"
+                      , "fo":"Disabled"
+                      , "ii":"70"
+                      , "ll":"4"
+                      , "lt":"143.000000"
+                      , "mi":"70"
+                      , "pl":"Yes"
+                      , "tc":"28"
+                      , "tn":"0"
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure: n/a"
+                        }
+                      ]
+                      , "debug":
+                      [
+                        [
+                          {
+                            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                            , "line":31
+                          }
+                        ]
+                      ]
+                      , "type":"loop"
+                    }
+                  ]
+                }
+                , {
+                  "name":"relu1.B5"
+                  , "id":2966011312
+                  , "af":"240.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"1.000000"
+                  , "mi":"n/a"
+                  , "pl":"Yes"
+                  , "tc":"28"
+                  , "tn":"1"
+                  , "type":"bb"
+                }
+              ]
+            }
+            , {
+              "name":"relu1.B6"
+              , "id":2966011024
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"6"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"relu1.B7"
+          , "id":2968242960
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"avgpooling1"
+      , "id":3026982000
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":38
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"avgpooling1.B0.runOnce"
+          , "id":2968244208
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"avgpooling1.B1.start"
+          , "id":2968242480
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":38
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"avgpooling1.B2"
+              , "id":2968242288
+              , "af":"174.96"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"6.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":40
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"avgpooling1.B3"
+                  , "id":2968244496
+                  , "af":"174.96"
+                  , "br":"0"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"6.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: n/a"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                        , "line":41
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                  , "children":
+                  [
+                    {
+                      "name":"avgpooling1.B4"
+                      , "id":2968242576
+                      , "af":"240.00"
+                      , "br":"1"
+                      , "ci":"0"
+                      , "fo":"Disabled"
+                      , "ii":"137"
+                      , "ll":"4"
+                      , "lt":"277.000000"
+                      , "mi":"137"
+                      , "pl":"Yes"
+                      , "tc":"14"
+                      , "tn":"0"
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure: n/a"
+                        }
+                      ]
+                      , "debug":
+                      [
+                        [
+                          {
+                            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                            , "line":42
+                          }
+                        ]
+                      ]
+                      , "type":"loop"
+                    }
+                  ]
+                }
+                , {
+                  "name":"avgpooling1.B5"
+                  , "id":2968240176
+                  , "af":"240.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"1.000000"
+                  , "mi":"n/a"
+                  , "pl":"Yes"
+                  , "tc":"14"
+                  , "tn":"1"
+                  , "type":"bb"
+                }
+              ]
+            }
+            , {
+              "name":"avgpooling1.B6"
+              , "id":2968242384
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"6"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"avgpooling1.B7"
+          , "id":2968244880
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"conv2"
+      , "id":3026985840
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":49
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"conv2.B0.runOnce"
+          , "id":2968243632
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"conv2.B1.start"
+          , "id":2968244112
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":49
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"conv2.B2"
+              , "id":2968244304
+              , "af":"174.96"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"6.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":52
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"conv2.B3"
+                  , "id":2968240560
+                  , "af":"174.96"
+                  , "br":"0"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"6.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: n/a"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                        , "line":53
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                  , "children":
+                  [
+                    {
+                      "name":"conv2.B4"
+                      , "id":2968243728
+                      , "af":"174.96"
+                      , "br":"0"
+                      , "ci":"0"
+                      , "fo":"Disabled"
+                      , "ii":"1"
+                      , "ll":"4"
+                      , "lt":"11.000000"
+                      , "mi":"1"
+                      , "pl":"Yes"
+                      , "tc":"0"
+                      , "tn":"0"
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure: n/a"
+                        }
+                      ]
+                      , "debug":
+                      [
+                        [
+                          {
+                            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                            , "line":54
+                          }
+                        ]
+                      ]
+                      , "type":"loop"
+                      , "children":
+                      [
+                        {
+                          "name":"conv2.B5"
+                          , "id":2968245072
+                          , "af":"174.96"
+                          , "br":"0"
+                          , "ci":"0"
+                          , "fo":"Disabled"
+                          , "ii":"1"
+                          , "ll":"5"
+                          , "lt":"6.000000"
+                          , "mi":"1"
+                          , "pl":"Yes"
+                          , "tc":"0"
+                          , "tn":"0"
+                          , "details":
+                          [
+                            {
+                              "type":"text"
+                              , "text":"Hyper-Optimized loop structure: n/a"
+                            }
+                          ]
+                          , "debug":
+                          [
+                            [
+                              {
+                                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                                , "line":55
+                              }
+                            ]
+                          ]
+                          , "type":"loop"
+                          , "children":
+                          [
+                            {
+                              "name":"conv2.B6"
+                              , "id":2968242000
+                              , "af":"174.96"
+                              , "br":"0"
+                              , "ci":"0"
+                              , "fo":"Disabled"
+                              , "ii":"1"
+                              , "ll":"6"
+                              , "lt":"7.000000"
+                              , "mi":"1"
+                              , "pl":"Yes"
+                              , "tc":"0"
+                              , "tn":"0"
+                              , "details":
+                              [
+                                {
+                                  "type":"text"
+                                  , "text":"Hyper-Optimized loop structure: n/a"
+                                }
+                              ]
+                              , "debug":
+                              [
+                                [
+                                  {
+                                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                                    , "line":56
+                                  }
+                                ]
+                              ]
+                              , "type":"loop"
+                              , "children":
+                              [
+                                {
+                                  "name":"conv2.B7"
+                                  , "id":2968240272
+                                  , "af":"240.00"
+                                  , "br":"1"
+                                  , "ci":"0"
+                                  , "fo":"Disabled"
+                                  , "ii":"99"
+                                  , "ll":"7"
+                                  , "lt":"132.000000"
+                                  , "mi":"99"
+                                  , "pl":"Yes"
+                                  , "tc":"5"
+                                  , "tn":"0"
+                                  , "details":
+                                  [
+                                    {
+                                      "type":"text"
+                                      , "text":"Hyper-Optimized loop structure: n/a"
+                                    }
+                                  ]
+                                  , "debug":
+                                  [
+                                    [
+                                      {
+                                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                                        , "line":57
+                                      }
+                                    ]
+                                  ]
+                                  , "type":"loop"
+                                }
+                              ]
+                            }
+                            , {
+                              "name":"conv2.B8"
+                              , "id":2968246128
+                              , "af":"240.00"
+                              , "br":"1"
+                              , "ci":"0"
+                              , "fo":"Disabled"
+                              , "ii":"1"
+                              , "ll":"6"
+                              , "lt":"1.000000"
+                              , "mi":"n/a"
+                              , "pl":"Yes"
+                              , "tc":"5"
+                              , "tn":"1"
+                              , "type":"bb"
+                            }
+                          ]
+                        }
+                        , {
+                          "name":"conv2.B9"
+                          , "id":2968244400
+                          , "af":"240.00"
+                          , "br":"1"
+                          , "ci":"0"
+                          , "fo":"Disabled"
+                          , "ii":"1"
+                          , "ll":"5"
+                          , "lt":"1.000000"
+                          , "mi":"n/a"
+                          , "pl":"Yes"
+                          , "tc":"6"
+                          , "tn":"1"
+                          , "type":"bb"
+                        }
+                      ]
+                    }
+                    , {
+                      "name":"conv2.B10"
+                      , "id":2968244592
+                      , "af":"240.00"
+                      , "br":"1"
+                      , "ci":"0"
+                      , "fo":"Disabled"
+                      , "ii":"1"
+                      , "ll":"4"
+                      , "lt":"1.000000"
+                      , "mi":"n/a"
+                      , "pl":"Yes"
+                      , "tc":"10"
+                      , "tn":"1"
+                      , "type":"bb"
+                    }
+                  ]
+                }
+                , {
+                  "name":"conv2.B11"
+                  , "id":2968245552
+                  , "af":"240.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"1.000000"
+                  , "mi":"n/a"
+                  , "pl":"Yes"
+                  , "tc":"10"
+                  , "tn":"1"
+                  , "type":"bb"
+                }
+              ]
+            }
+            , {
+              "name":"conv2.B12"
+              , "id":2968240656
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"16"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"conv2.B13"
+          , "id":2968245648
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"relu2"
+      , "id":3026977520
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":68
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"relu2.B0.runOnce"
+          , "id":2968676960
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"relu2.B1.start"
+          , "id":2968677440
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":68
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"relu2.B2"
+              , "id":2968676768
+              , "af":"174.96"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"6.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":70
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"relu2.B3"
+                  , "id":2968676672
+                  , "af":"174.96"
+                  , "br":"0"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"6.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: n/a"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                        , "line":71
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                  , "children":
+                  [
+                    {
+                      "name":"relu2.B4"
+                      , "id":2968677152
+                      , "af":"240.00"
+                      , "br":"1"
+                      , "ci":"0"
+                      , "fo":"Disabled"
+                      , "ii":"70"
+                      , "ll":"4"
+                      , "lt":"143.000000"
+                      , "mi":"70"
+                      , "pl":"Yes"
+                      , "tc":"10"
+                      , "tn":"0"
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure: n/a"
+                        }
+                      ]
+                      , "debug":
+                      [
+                        [
+                          {
+                            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                            , "line":72
+                          }
+                        ]
+                      ]
+                      , "type":"loop"
+                    }
+                  ]
+                }
+                , {
+                  "name":"relu2.B5"
+                  , "id":2968677536
+                  , "af":"240.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"1.000000"
+                  , "mi":"n/a"
+                  , "pl":"Yes"
+                  , "tc":"10"
+                  , "tn":"1"
+                  , "type":"bb"
+                }
+              ]
+            }
+            , {
+              "name":"relu2.B6"
+              , "id":2968677824
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"16"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"relu2.B7"
+          , "id":2968681184
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"avgpooling2"
+      , "id":3139471488
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":79
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"avgpooling2.B0.runOnce"
+          , "id":2968681472
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"avgpooling2.B1.start"
+          , "id":2968680512
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":79
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"avgpooling2.B2"
+              , "id":2968682144
+              , "af":"174.96"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"6.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":81
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"avgpooling2.B3"
+                  , "id":2968678400
+                  , "af":"174.96"
+                  , "br":"0"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"6.000000"
+                  , "mi":"1"
+                  , "pl":"Yes"
+                  , "tc":"0"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: n/a"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                        , "line":82
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                  , "children":
+                  [
+                    {
+                      "name":"avgpooling2.B4"
+                      , "id":2968680992
+                      , "af":"240.00"
+                      , "br":"1"
+                      , "ci":"0"
+                      , "fo":"Disabled"
+                      , "ii":"137"
+                      , "ll":"4"
+                      , "lt":"277.000000"
+                      , "mi":"137"
+                      , "pl":"Yes"
+                      , "tc":"5"
+                      , "tn":"0"
+                      , "details":
+                      [
+                        {
+                          "type":"text"
+                          , "text":"Hyper-Optimized loop structure: n/a"
+                        }
+                      ]
+                      , "debug":
+                      [
+                        [
+                          {
+                            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                            , "line":83
+                          }
+                        ]
+                      ]
+                      , "type":"loop"
+                    }
+                  ]
+                }
+                , {
+                  "name":"avgpooling2.B5"
+                  , "id":2968676480
+                  , "af":"240.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"1"
+                  , "ll":"3"
+                  , "lt":"1.000000"
+                  , "mi":"n/a"
+                  , "pl":"Yes"
+                  , "tc":"5"
+                  , "tn":"1"
+                  , "type":"bb"
+                }
+              ]
+            }
+            , {
+              "name":"avgpooling2.B6"
+              , "id":2968680320
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"16"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"avgpooling2.B7"
+          , "id":2968677344
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"fc1"
+      , "id":3139474688
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":104
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"fc1.B0.runOnce"
+          , "id":2968681952
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"fc1.B1.start"
+          , "id":2968679936
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":104
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"fc1.B2"
+              , "id":2968678880
+              , "af":"174.96"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"6.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":106
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"fc1.B3"
+                  , "id":2968679072
+                  , "af":"240.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"99"
+                  , "ll":"3"
+                  , "lt":"201.000000"
+                  , "mi":"99"
+                  , "pl":"Yes"
+                  , "tc":"400"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: n/a"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                        , "line":107
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                }
+              ]
+            }
+            , {
+              "name":"fc1.B4"
+              , "id":2968679168
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"120"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"fc1.B5"
+          , "id":2968679360
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"relu3"
+      , "id":3139463808
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":114
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"relu3.B0.runOnce"
+          , "id":2968680896
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"relu3.B1.start"
+          , "id":2968682240
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":114
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"relu3.B2"
+              , "id":2968682624
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"70"
+              , "ll":"2"
+              , "lt":"105.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"120"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":116
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"relu3.B3"
+          , "id":2968686272
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"relu4"
+      , "id":3139467648
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":131
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"relu4.B0.runOnce"
+          , "id":2968685984
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"relu4.B1.start"
+          , "id":2968683584
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":131
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"relu4.B2"
+              , "id":2968683200
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"70"
+              , "ll":"2"
+              , "lt":"105.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"84"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":133
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"relu4.B3"
+          , "id":2968688192
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"fc3"
+      , "id":3139461248
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":138
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"fc3.B0.runOnce"
+          , "id":2968684352
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"fc3.B1.start"
+          , "id":2968687904
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":138
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"fc3.B2"
+              , "id":2968685120
+              , "af":"174.96"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"6.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":140
+                  }
+                ]
+              ]
+              , "type":"loop"
+              , "children":
+              [
+                {
+                  "name":"fc3.B3"
+                  , "id":2968685216
+                  , "af":"240.00"
+                  , "br":"1"
+                  , "ci":"0"
+                  , "fo":"Disabled"
+                  , "ii":"99"
+                  , "ll":"3"
+                  , "lt":"201.000000"
+                  , "mi":"99"
+                  , "pl":"Yes"
+                  , "tc":"84"
+                  , "tn":"0"
+                  , "details":
+                  [
+                    {
+                      "type":"text"
+                      , "text":"Hyper-Optimized loop structure: n/a"
+                    }
+                  ]
+                  , "debug":
+                  [
+                    [
+                      {
+                        "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                        , "line":141
+                      }
+                    ]
+                  ]
+                  , "type":"loop"
+                }
+              ]
+            }
+            , {
+              "name":"fc3.B4"
+              , "id":2968683296
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"1.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"10"
+              , "tn":"1"
+              , "type":"bb"
+            }
+          ]
+        }
+        , {
+          "name":"fc3.B5"
+          , "id":2968683392
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"softmax"
+      , "id":3264573920
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":148
+          }
+        ]
+      ]
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"softmax.B0.runOnce"
+          , "id":2968686368
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"softmax.B1.start"
+          , "id":2968687424
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"1"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"2.000000"
+          , "mi":"1"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":148
+              }
+            ]
+          ]
+          , "type":"loop"
+          , "children":
+          [
+            {
+              "name":"softmax.B3"
+              , "id":2968683776
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"23"
+              , "ll":"2"
+              , "lt":"81.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"10"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":151
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+            , {
+              "name":"softmax.B2"
+              , "id":2968686752
+              , "af":"240.00"
+              , "br":"0"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"1"
+              , "ll":"2"
+              , "lt":"0.000000"
+              , "mi":"n/a"
+              , "pl":"Yes"
+              , "tc":"0"
+              , "tn":"1"
+              , "type":"bb"
+            }
+            , {
+              "name":"softmax.B4"
+              , "id":2968686848
+              , "af":"240.00"
+              , "br":"1"
+              , "ci":"0"
+              , "fo":"Disabled"
+              , "ii":"102"
+              , "ll":"2"
+              , "lt":"175.000000"
+              , "mi":"1"
+              , "pl":"Yes"
+              , "tc":"10"
+              , "tn":"0"
+              , "details":
+              [
+                {
+                  "type":"text"
+                  , "text":"Hyper-Optimized loop structure: n/a"
+                }
+              ]
+              , "debug":
+              [
+                [
+                  {
+                    "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                    , "line":154
+                  }
+                ]
+              ]
+              , "type":"loop"
+            }
+          ]
+        }
+        , {
+          "name":"softmax.B5"
+          , "id":2968687520
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"1.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+  ]
+}

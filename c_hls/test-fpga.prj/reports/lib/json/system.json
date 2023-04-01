@@ -1,0 +1,1196 @@
+{
+  "nodes":
+  [
+    {
+      "name":"conv1"
+      , "id":2965110264
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Read"
+          , "id":2965752496
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"conv1.B1.start"
+              , "Width":"256 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":10
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Write"
+          , "id":2967234192
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"conv1.B7"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":25
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"relu1"
+      , "id":2965075864
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Write"
+          , "id":2965906528
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"relu1.B7"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":36
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Read"
+          , "id":2967470112
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"relu1.B1.start"
+              , "Width":"128 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":27
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"relu2"
+      , "id":2967226616
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Write"
+          , "id":2968159760
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"relu2.B7"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":77
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Read"
+          , "id":2968425344
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"relu2.B1.start"
+              , "Width":"128 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":68
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"fc1"
+      , "id":2967248264
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Read"
+          , "id":2968341952
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"fc1.B1.start"
+              , "Width":"256 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":104
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Write"
+          , "id":2968340112
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"fc1.B5"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":112
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"relu3"
+      , "id":2967241224
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Read"
+          , "id":2968341584
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"relu3.B1.start"
+              , "Width":"128 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":114
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Write"
+          , "id":2968342320
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"relu3.B3"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":119
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"fc3"
+      , "id":2967248104
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Read"
+          , "id":2968339376
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"fc3.B1.start"
+              , "Width":"256 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":138
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Write"
+          , "id":2968339744
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"fc3.B5"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":146
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"softmax"
+      , "id":2967328696
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Write"
+          , "id":2968341216
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"softmax.B5"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":157
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Read"
+          , "id":2968340480
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"softmax.B1.start"
+              , "Width":"128 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":148
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"avgpooling1"
+      , "id":2967233496
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Write"
+          , "id":2968152048
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"avgpooling1.B7"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":47
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Read"
+          , "id":2968150784
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"avgpooling1.B1.start"
+              , "Width":"128 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":38
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"conv2"
+      , "id":2967229496
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Write"
+          , "id":2968411104
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"conv2.B13"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":66
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Read"
+          , "id":2968326416
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"conv2.B1.start"
+              , "Width":"256 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":49
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"avgpooling2"
+      , "id":2967248424
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Write"
+          , "id":2967523616
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"avgpooling2.B7"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":88
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Read"
+          , "id":2968161264
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"avgpooling2.B1.start"
+              , "Width":"128 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":79
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"relu4"
+      , "id":2967245864
+      , "type":"component"
+      , "children":
+      [
+        {
+          "name":"Stream Write"
+          , "id":2968342688
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"relu4.B3"
+              , "Width":"1 bit"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":136
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"Stream Read"
+          , "id":2968340848
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Basic Block":"relu4.B1.start"
+              , "Width":"128 bits"
+              , "Depth":"0"
+              , "Stall-free":"No"
+              , "Latency":"0"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":131
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"return.relu2"
+      , "id":2965113936
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.fc1"
+      , "id":2965114064
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"256 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"256 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.relu3"
+      , "id":2965114192
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"128 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"128 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.softmax"
+      , "id":2965114320
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"128 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"128 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.relu1"
+      , "id":2965114448
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.relu4"
+      , "id":2965114576
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.conv1"
+      , "id":2965114704
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"256 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"256 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.fc1"
+      , "id":2965114832
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.conv1"
+      , "id":2965115088
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.avgpooling1"
+      , "id":2965115216
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"128 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"128 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.fc3"
+      , "id":2965115344
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"256 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"256 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.fc3"
+      , "id":2965115472
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.softmax"
+      , "id":2965115600
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.relu3"
+      , "id":2965115728
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.relu4"
+      , "id":2965116112
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"128 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"128 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.conv2"
+      , "id":2965116624
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"256 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"256 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.relu2"
+      , "id":2965116752
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"128 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"128 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.avgpooling1"
+      , "id":2965116880
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.relu1"
+      , "id":2965117136
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"128 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"128 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.conv2"
+      , "id":2965117264
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"call.avgpooling2"
+      , "id":2965117392
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"128 bits"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"128 bits"
+          , "Uses Packets":"No"
+          , "Uses Valid":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+    , {
+      "name":"return.avgpooling2"
+      , "id":2965117520
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Width":"1 bit"
+          , "Depth":"0"
+          , "Ready Latency":"0"
+          , "Bits per Symbol":"1 bit"
+          , "Uses Packets":"No"
+          , "Uses Ready":"Yes"
+          , "Uses Empty":"No"
+          , "First symbol in high order bits":"No"
+        }
+      ]
+      , "type":"stream"
+    }
+  ]
+  , "links":
+  [
+    {
+      "from":2968159760
+      , "to":2965113936
+    }
+    , {
+      "from":2965114064
+      , "to":2968341952
+    }
+    , {
+      "from":2965114192
+      , "to":2968341584
+    }
+    , {
+      "from":2965114320
+      , "to":2968340480
+    }
+    , {
+      "from":2965906528
+      , "to":2965114448
+    }
+    , {
+      "from":2968342688
+      , "to":2965114576
+    }
+    , {
+      "from":2965114704
+      , "to":2965752496
+    }
+    , {
+      "from":2968340112
+      , "to":2965114832
+    }
+    , {
+      "from":2967234192
+      , "to":2965115088
+    }
+    , {
+      "from":2965115216
+      , "to":2968150784
+    }
+    , {
+      "from":2965115344
+      , "to":2968339376
+    }
+    , {
+      "from":2968339744
+      , "to":2965115472
+    }
+    , {
+      "from":2968341216
+      , "to":2965115600
+    }
+    , {
+      "from":2968342320
+      , "to":2965115728
+    }
+    , {
+      "from":2965116112
+      , "to":2968340848
+    }
+    , {
+      "from":2965116624
+      , "to":2968326416
+    }
+    , {
+      "from":2965116752
+      , "to":2968425344
+    }
+    , {
+      "from":2968152048
+      , "to":2965116880
+    }
+    , {
+      "from":2965117136
+      , "to":2967470112
+    }
+    , {
+      "from":2968411104
+      , "to":2965117264
+    }
+    , {
+      "from":2965117392
+      , "to":2968161264
+    }
+    , {
+      "from":2967523616
+      , "to":2965117520
+    }
+    , {
+      "from":2967470112
+      , "to":2965906528
+    }
+    , {
+      "from":2965752496
+      , "to":2967234192
+    }
+    , {
+      "from":2968425344
+      , "to":2968159760
+    }
+    , {
+      "from":2968326416
+      , "to":2968411104
+    }
+    , {
+      "from":2968150784
+      , "to":2968152048
+    }
+    , {
+      "from":2968341584
+      , "to":2968342320
+    }
+    , {
+      "from":2968340848
+      , "to":2968342688
+    }
+    , {
+      "from":2968339376
+      , "to":2968339744
+    }
+    , {
+      "from":2968341952
+      , "to":2968340112
+    }
+    , {
+      "from":2968161264
+      , "to":2967523616
+    }
+    , {
+      "from":2968340480
+      , "to":2968341216
+    }
+  ]
+}

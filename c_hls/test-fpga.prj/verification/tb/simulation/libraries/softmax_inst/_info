@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dc:/Users/Admins/Downloads/vscode_project/c_lenet5/c_hls/test-fpga.prj/verification/tb/simulation
+vtb_softmax_inst
+!s110 1680330210
+!i10b 1
+!s100 =gi=_Y1[ZjN_nQVz][^cK1
+I9ZT]jKdOOLYfDEkUlaa5N2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1680329792
+8./submodules/tb_softmax_inst.v
+F./submodules/tb_softmax_inst.v
+L0 6
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1680330210.000000
+!s107 ./submodules/tb_softmax_inst.v|
+!s90 +incdir+.|+define+COSIM_LIB|-suppress|14408|./submodules/tb_softmax_inst.v|-work|softmax_inst|
+!i113 1
+o-suppress 14408 -work softmax_inst
+!s92 -suppress 14408 +incdir+. +define+COSIM_LIB -work softmax_inst
+tCvgOpt 0

@@ -4,6 +4,8 @@
 #include <math.h>
 #include "HLS/hls.h"
 #include "tensor.h"
+#include "HLS/hls_float_math.h"
+#include "HLS/hls_float.h"
 
 component void conv1(float in[28][28], float kernel[6][1][1], float bias[6], float out[6][28][28]){
  int channel, row, col; 
@@ -147,55 +149,55 @@ component void softmax(float in[10], float out[10]){
    int i;
    float sum = 0;
    for(i=0;i<10;i++)
-       sum += exp(in[i]);
+       sum += expf(in[i]);
 
    for(i=0;i<10;i++){
-       out[i] = fabs(exp(in[i]) / (sum * 1.0f));
+       out[i] = fabsf(expf(in[i]) / (sum * 1.0f));
    }
 }
 
 
-component void Prediction(     float image[28][28],
-                    float w_conv1[6][1][1],
-                    float w_conv2[16][6][5][5],
-                    float w_fc1[120][400],
-                    float w_fc2[84][120],
-                    float w_fc3[10][84],
-                    float b_conv1[6],
-                    float b_conv2[16],
-                    float b_fc1[120],
-                    float b_fc2[84],
-                    float b_fc3[10],
-                    float probs[10]){
+// void Prediction(     float image[28][28],
+//                     float w_conv1[6][1][1],
+//                     float w_conv2[16][6][5][5],
+//                     float w_fc1[120][400],
+//                     float w_fc2[84][120],
+//                     float w_fc3[10][84],
+//                     float b_conv1[6],
+//                     float b_conv2[16],
+//                     float b_fc1[120],
+//                     float b_fc2[84],
+//                     float b_fc3[10],
+//                     float probs[10]){
 
 
 
 
-   float o_conv1[6][28][28],  o_relu1[6][28][28],  o_avgpooling1[6][14][14];
-   float o_conv2[16][10][10], o_relu2[16][10][10], o_avgpooling2[16][5][5];
-   float o_flatten[400];
-   float o_fc1[120], o_relu3[120];
-   float o_fc2[84],  o_relu4[84];
-   float o_fc3[10];
+//    float o_conv1[6][28][28],  o_relu1[6][28][28],  o_avgpooling1[6][14][14];
+//    float o_conv2[16][10][10], o_relu2[16][10][10], o_avgpooling2[16][5][5];
+//    float o_flatten[400];
+//    float o_fc1[120], o_relu3[120];
+//    float o_fc2[84],  o_relu4[84];
+//    float o_fc3[10];
 
-   conv1(image, w_conv1, b_conv1, o_conv1);
-   relu1(o_conv1, o_relu1);
-   avgpooling1(o_relu1, o_avgpooling1);
+//    conv1(image, w_conv1, b_conv1, o_conv1);
+//    relu1(o_conv1, o_relu1);
+//    avgpooling1(o_relu1, o_avgpooling1);
 
-   conv2(o_avgpooling1, w_conv2, b_conv2, o_conv2);
-   relu2(o_conv2, o_relu2);
-   avgpooling2(o_relu2, o_avgpooling2);
+//    conv2(o_avgpooling1, w_conv2, b_conv2, o_conv2);
+//    relu2(o_conv2, o_relu2);
+//    avgpooling2(o_relu2, o_avgpooling2);
 
-   flatten(o_avgpooling2, o_flatten);
+//    flatten(o_avgpooling2, o_flatten);
 
-   fc1(o_flatten, w_fc1, b_fc1, o_fc1);
-   relu3(o_fc1, o_relu3);
+//    fc1(o_flatten, w_fc1, b_fc1, o_fc1);
+//    relu3(o_fc1, o_relu3);
 
-   fc2(o_relu3, w_fc2, b_fc2, o_fc2);
-   relu4(o_fc2, o_relu4);
-   fc3(o_relu4, w_fc3, b_fc3, o_fc3);
-   softmax(o_fc3, probs);
+//    fc2(o_relu3, w_fc2, b_fc2, o_fc2);
+//    relu4(o_fc2, o_relu4);
+//    fc3(o_relu4, w_fc3, b_fc3, o_fc3);
+//    softmax(o_fc3, probs);
 
-}
+// }
 
 

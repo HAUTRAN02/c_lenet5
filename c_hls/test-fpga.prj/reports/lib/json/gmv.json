@@ -1,0 +1,1414 @@
+{
+  "nodes":
+  [
+    {
+      "name":"0"
+      , "id":1
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Interleaving":"Yes"
+          , "Interleave Size":"4095 MBs"
+          , "Channels":"1 channel"
+          , "Maximum bandwidth the BSP can deliver":"0.00 MB/s<br><small><i> Note: Realistic maximum bandwidth is about 90% of the above due to loss from interconnect and memory controller.</i></small>"
+          , "Channel 0_Width (bits)":"64"
+        }
+      ]
+      , "type":"memsys"
+      , "children":
+      [
+        {
+          "name":"0"
+          , "id":3
+          , "type":"bb"
+        }
+      ]
+    }
+    , {
+      "name":"Memory Controller"
+      , "id":2
+      , "parent":"1"
+      , "bw":"0.00"
+      , "num_channels":"1"
+      , "interleave":"1"
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Maximum bandwidth the BSP can deliver":"0.00 MB/s<br><small><i> Note: Realistic maximum bandwidth is about 90% of the above due to loss from interconnect and memory controller.</i></small>"
+        }
+      ]
+      , "type":"bb"
+    }
+    , {
+      "name":"Global Memory Interconnect"
+      , "id":4
+      , "parent":"1"
+      , "type":"bb"
+      , "children":
+      [
+        {
+          "name":"SHARE"
+          , "id":5
+          , "type":"arb"
+        }
+        , {
+          "name":"Write Interconnect"
+          , "id":8
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Name":"0"
+              , "Interconnect Style":"ring"
+              , "Writes":"11"
+              , "User specified force-single-store-ring flag":"False"
+              , "Store Rings":"1"
+            }
+          ]
+          , "type":"bb"
+        }
+        , {
+          "name":"Read Interconnect"
+          , "id":6
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Name":"0"
+              , "Interconnect Style":"ring"
+              , "Reads":"26"
+            }
+          ]
+          , "type":"bb"
+        }
+        , {
+          "name":"Read Interconnect Router"
+          , "id":7
+          , "details":
+          [
+            {
+              "type":"table"
+              , "User specified num-reorder flag":"1"
+            }
+          ]
+          , "type":"memsys"
+          , "children":
+          [
+            {
+              "name":"Bus 0"
+              , "id":48
+              , "type":"memsys"
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"Global Memory Loads"
+      , "id":9
+      , "parent":"1"
+      , "type":"bb"
+      , "children":
+      [
+        {
+          "name":"LD"
+          , "id":10
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":19
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":11
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":19
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":12
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":18
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":15
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"73"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":32
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":17
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"140"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":43
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":18
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"140"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":43
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":19
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"140"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":43
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":20
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"140"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":43
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":22
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"33"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":59
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":23
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"33"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":59
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":24
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"33"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":26
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"73"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":73
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":28
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"140"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":84
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":29
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"140"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":84
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":30
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"140"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":84
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":31
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"140"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":84
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":33
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":109
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":34
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":109
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":35
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":37
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"35"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":117
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":39
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"35"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":134
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":41
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":143
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":42
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":143
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":43
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"102"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":45
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"25"
+              , "Latency":"4 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":152
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"LD"
+          , "id":46
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"73"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Caching":"No"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":155
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+    , {
+      "name":"Global Memory Stores"
+      , "id":13
+      , "parent":"1"
+      , "type":"bb"
+      , "children":
+      [
+        {
+          "name":"ST"
+          , "id":14
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"169"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":18
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":16
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"111"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":32
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":21
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"245"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":43
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":25
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"100"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":27
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"111"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":73
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":32
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"245"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":84
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":36
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"169"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":38
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"73"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":117
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":40
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"73"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":134
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":44
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"169"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "type":"inst"
+        }
+        , {
+          "name":"ST"
+          , "id":47
+          , "kwidth":"32"
+          , "mwidth":"64"
+          , "details":
+          [
+            {
+              "type":"table"
+              , "Start Cycle":"143"
+              , "Latency":"31 cycles"
+              , "Width":"32 bits"
+              , "0_Width":"64 bits"
+              , "Uses Write Ack":"Yes"
+              , "LSU Style":"PIPELINED"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+                , "line":155
+              }
+            ]
+          ]
+          , "type":"inst"
+        }
+      ]
+    }
+  ]
+  , "links":
+  [
+    {
+      "from":3
+      , "to":2
+    }
+    , {
+      "from":2
+      , "to":3
+    }
+    , {
+      "from":6
+      , "to":5
+    }
+    , {
+      "from":8
+      , "to":5
+    }
+    , {
+      "from":5
+      , "to":2
+    }
+    , {
+      "from":10
+      , "to":6
+    }
+    , {
+      "from":11
+      , "to":6
+    }
+    , {
+      "from":12
+      , "to":6
+    }
+    , {
+      "from":14
+      , "to":8
+    }
+    , {
+      "from":15
+      , "to":6
+    }
+    , {
+      "from":16
+      , "to":8
+    }
+    , {
+      "from":17
+      , "to":6
+    }
+    , {
+      "from":18
+      , "to":6
+    }
+    , {
+      "from":19
+      , "to":6
+    }
+    , {
+      "from":20
+      , "to":6
+    }
+    , {
+      "from":21
+      , "to":8
+    }
+    , {
+      "from":22
+      , "to":6
+    }
+    , {
+      "from":23
+      , "to":6
+    }
+    , {
+      "from":24
+      , "to":6
+    }
+    , {
+      "from":25
+      , "to":8
+    }
+    , {
+      "from":26
+      , "to":6
+    }
+    , {
+      "from":27
+      , "to":8
+    }
+    , {
+      "from":28
+      , "to":6
+    }
+    , {
+      "from":29
+      , "to":6
+    }
+    , {
+      "from":30
+      , "to":6
+    }
+    , {
+      "from":31
+      , "to":6
+    }
+    , {
+      "from":32
+      , "to":8
+    }
+    , {
+      "from":33
+      , "to":6
+    }
+    , {
+      "from":34
+      , "to":6
+    }
+    , {
+      "from":35
+      , "to":6
+    }
+    , {
+      "from":36
+      , "to":8
+    }
+    , {
+      "from":37
+      , "to":6
+    }
+    , {
+      "from":38
+      , "to":8
+    }
+    , {
+      "from":39
+      , "to":6
+    }
+    , {
+      "from":40
+      , "to":8
+    }
+    , {
+      "from":41
+      , "to":6
+    }
+    , {
+      "from":42
+      , "to":6
+    }
+    , {
+      "from":43
+      , "to":6
+    }
+    , {
+      "from":44
+      , "to":8
+    }
+    , {
+      "from":45
+      , "to":6
+    }
+    , {
+      "from":46
+      , "to":6
+    }
+    , {
+      "from":47
+      , "to":8
+    }
+    , {
+      "from":2
+      , "to":48
+    }
+    , {
+      "from":48
+      , "to":10
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":11
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":12
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":15
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":17
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":18
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":19
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":20
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":22
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":23
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":24
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":26
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":28
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":29
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":30
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":31
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":33
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":34
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":35
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":37
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":39
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":41
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":42
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":43
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":45
+      , "reverse":1
+    }
+    , {
+      "from":48
+      , "to":46
+      , "reverse":1
+    }
+  ]
+}

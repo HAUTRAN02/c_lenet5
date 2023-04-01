@@ -1,0 +1,65 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dc:/Users/Admins/Downloads/vscode_project/c_lenet5/c_hls/test-fpga.prj/verification/tb/simulation
+valtera_avalon_mm_slave_bfm
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx25 altera_common_sv_packages 13 verbosity_pkg 0 22 jIUTbB:z06UGk7e:X_Cc:3
+Z3 DXx25 altera_common_sv_packages 13 avalon_mm_pkg 0 22 _WJ`ZYGj2n3d33>EO06Hi3
+DXx25 altera_common_sv_packages 20 avalon_utilities_pkg 0 22 :g=^gzPbc2?NSg>fo5GZH2
+Z4 !s110 1680330211
+!i10b 1
+!s100 d@X3KM8]Y8m;9o`89a>OH3
+IlJDWKdVm@PCXb;TN0Vb<a1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_mm_slave_bfm_sv_unit
+S1
+R0
+Z6 w1680329784
+8./submodules/altera_avalon_mm_slave_bfm.sv
+F./submodules/altera_avalon_mm_slave_bfm.sv
+L0 36
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1680330210.000000
+!s107 ./submodules/altera_avalon_mm_slave_bfm.sv|
+!s90 -sv|+incdir+.|+define+COSIM_LIB|-suppress|14408|./submodules/altera_avalon_mm_slave_bfm.sv|-L|altera_common_sv_packages|-work|mm_agent_dpi_bfm_avgpooling1_avmm_0_rw_inst|
+!i113 1
+Z8 o-suppress 14408 -sv -L altera_common_sv_packages -work mm_agent_dpi_bfm_avgpooling1_avmm_0_rw_inst
+Z9 !s92 -suppress 14408 -sv +incdir+. +define+COSIM_LIB -L altera_common_sv_packages -work mm_agent_dpi_bfm_avgpooling1_avmm_0_rw_inst
+Z10 tCvgOpt 0
+vhls_sim_mm_agent_dpi_bfm
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 ACnah7R217okkLM9ClVKS1
+IN7MNSRM_hPnbRcBCCYA7n1
+R5
+!s105 hls_sim_mm_agent_dpi_bfm_sv_unit
+S1
+R0
+R6
+8./submodules/hls_sim_mm_agent_dpi_bfm.sv
+F./submodules/hls_sim_mm_agent_dpi_bfm.sv
+L0 28
+R7
+r1
+!s85 0
+31
+!s108 1680330211.000000
+!s107 ./submodules/hls_sim_mm_agent_dpi_bfm.sv|
+!s90 -sv|+incdir+.|+define+COSIM_LIB|-suppress|14408|./submodules/hls_sim_mm_agent_dpi_bfm.sv|-L|altera_common_sv_packages|-work|mm_agent_dpi_bfm_avgpooling1_avmm_0_rw_inst|
+!i113 1
+R8
+R9
+R10

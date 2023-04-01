@@ -1,0 +1,908 @@
+{
+  "nodes":
+  [
+    {
+      "type":"interface"
+      , "id":77
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":38
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"avgpooling1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":78
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":38
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"avgpooling1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":159
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":79
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"avgpooling2"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":160
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":79
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"avgpooling2"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":27
+      , "name":"bias"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":10
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"conv1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":25
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":10
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"conv1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":26
+      , "name":"kernel"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":10
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"conv1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":28
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":10
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"conv1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":110
+      , "name":"bias"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":49
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"conv2"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":108
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":49
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"conv2"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":109
+      , "name":"kernel"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":49
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"conv2"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":111
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":49
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"conv2"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":184
+      , "name":"bias"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":104
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"fc1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":182
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":104
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"fc1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":185
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":104
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"fc1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":183
+      , "name":"weights"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":104
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"fc1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":247
+      , "name":"bias"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":138
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"fc3"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":245
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":138
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"fc3"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":248
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":138
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"fc3"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":246
+      , "name":"weights"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":138
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"fc3"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":51
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":27
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"relu1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":52
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":27
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"relu1"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":133
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":68
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"relu2"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":134
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":68
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"relu2"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":203
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":114
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"relu3"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":204
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":114
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"relu3"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":222
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":131
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"relu4"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":223
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":131
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"relu4"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":271
+      , "name":"in0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":148
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"softmax"
+        }
+      ]
+    }
+    , {
+      "type":"interface"
+      , "id":272
+      , "name":"out0"
+      , "debug":
+      [
+        [
+          {
+            "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+            , "line":148
+          }
+        ]
+      ]
+      , "details":
+      [
+        {
+          "type":"table"
+          , "Stable":"No"
+          , "Data width":"64"
+          , "Address width":"64"
+          , "Address Space":"0"
+          , "Latency":"1"
+          , "ReadWrite Mode":"readwrite"
+          , "Maximum burst":"1"
+          , "Wait request":"0"
+          , "Alignment":"0"
+          , "Component":"softmax"
+        }
+      ]
+    }
+  ]
+  , "links":
+  [
+  ]
+}

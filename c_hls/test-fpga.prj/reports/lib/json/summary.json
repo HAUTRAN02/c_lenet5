@@ -1,0 +1,351 @@
+{
+  "functionNameMapping":
+  {
+    "name":"Synthesized Function Name Mapping"
+    , "columns":
+    ["User-defined Function Name", "Mapped Function Name"]
+    , "children":
+    [
+      {
+        "name":"void __cdecl avgpooling1(float (*const)[28][28], float (*const)[14][14])"
+        , "data":
+        ["avgpooling1"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":38
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl avgpooling2(float (*const)[10][10], float (*const)[5][5])"
+        , "data":
+        ["avgpooling2"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":79
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl conv1(float (*const)[28], float (*const)[1][1], float *const, float (*const)[28][28])"
+        , "data":
+        ["conv1"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":10
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl conv2(float (*const)[14][14], float (*const)[6][5][5], float *const, float (*const)[10][10])"
+        , "data":
+        ["conv2"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":49
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl fc1(float *const, float (*const)[400], float *const, float *const)"
+        , "data":
+        ["fc1"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":104
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl fc3(float *const, float (*const)[84], float *const, float *const)"
+        , "data":
+        ["fc3"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":138
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl relu1(float (*const)[28][28], float (*const)[28][28])"
+        , "data":
+        ["relu1"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":27
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl relu2(float (*const)[10][10], float (*const)[10][10])"
+        , "data":
+        ["relu2"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":68
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl relu3(float *const, float *const)"
+        , "data":
+        ["relu3"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":114
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl relu4(float *const, float *const)"
+        , "data":
+        ["relu4"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":131
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"void __cdecl softmax(float *const, float *const)"
+        , "data":
+        ["softmax"]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":148
+            }
+          ]
+        ]
+      }
+    ]
+  }
+  , "estimatedResources":
+  {
+    "name":"Estimated Resource Usage"
+    , "columns":
+    ["Function Name", "ALUTs ", "FFs  ", "RAMs ", "DSPs ", "MLABs"]
+    , "children":
+    [
+      {
+        "name":"avgpooling1"
+        , "data":
+        [6270, 7820, 28, 0, 52]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":38
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"avgpooling2"
+        , "data":
+        [5935, 7307, 27, 0, 52]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":79
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"conv1"
+        , "data":
+        [3624, 4936, 22, 2, 43]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":10
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"conv2"
+        , "data":
+        [7167, 12666, 57, 2, 175]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":49
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"fc1"
+        , "data":
+        [3175, 4162, 18, 2, 36]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":104
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"fc3"
+        , "data":
+        [3149, 4129, 17, 2, 36]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":138
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"relu1"
+        , "data":
+        [1908, 2693, 22, 0, 24]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":27
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"relu2"
+        , "data":
+        [1846, 2574, 22, 0, 25]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":68
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"relu3"
+        , "data":
+        [1130, 1599, 7, 0, 16]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":114
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"relu4"
+        , "data":
+        [1130, 1599, 7, 0, 16]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":131
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"softmax"
+        , "data":
+        [5843, 7393, 13, 8.5, 28]
+        , "debug":
+        [
+          [
+            {
+              "filename":"C:\\Users\\Admins\\Downloads\\vscode_project\\c_lenet5\\c_hls\\backup_lenet5lib.c"
+              , "line":148
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"Total"
+        , "classes":
+        ["summary-highlight", "nohover"]
+        , "data":
+        [41177, 56878, 240, 16, 503]
+        , "data_percent":
+        [37.5799, 25.9546, 46.6926, 15.1786]
+      }
+      , {
+        "name":"Available"
+        , "classes":
+        ["summary-highlight", "nohover"]
+        , "data":
+        [109572, 219144, 514, 112, 0]
+      }
+    ]
+  }
+  , "compileWarnings":
+  {
+    "name":"Compile Warnings"
+    , "children":
+    [
+    ]
+  }
+}
