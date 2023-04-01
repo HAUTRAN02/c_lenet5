@@ -5,8 +5,8 @@
 #include "tensor.h"
 
 void conv1(float in[28][28], float kernel[6][1][1], float bias[6], float out[6][28][28]){
- int channel, row, col; /* OUTPUT  */
- int i,j; /* KERNEL */
+ int channel, row, col; 
+ int i,j; 
  for(channel=0;channel<6;channel++){
    for(row=0;row<28;row++){
      for(col=0;col<28;col++){
@@ -44,8 +44,8 @@ void avgpooling1(float in[6][28][28], float out[6][14][14]){
 }
 
 void conv2(float in[6][14][14], float kernel[16][6][5][5], float bias[16], float out[16][10][10]){
- int channel, row, col; /* OUTPUT */
- int i,j,k; /* KERNEL */
+ int channel, row, col;
+ int i,j,k;
  for(channel=0;channel<16;channel++){
    for(row=0;row<10;row++){
      for(col=0;col<10;col++){
@@ -167,15 +167,7 @@ void Prediction(     float image[28][28],
                     float b_fc3[10],
                     float probs[10]){
 
-   //int i,j;
 
-   /* The input image is re-arranged from 1D to 2D */
-   // float image[28][28];
-   // for(i=0;i<28;i++)
-   //     for(j=0;j<28;j++)
-   //         image[i][j] = *(float*)&datain[28*i + j];
-
-   /* Lenet-5 */
 
 
    float o_conv1[6][28][28],  o_relu1[6][28][28],  o_avgpooling1[6][14][14];

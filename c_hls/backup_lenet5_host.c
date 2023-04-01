@@ -7,7 +7,6 @@
 
 int main(int argc, char** argv){
 
-   //float image[28][28];
    float w_conv1[6][1][1];
    float w_conv2[16][6][5][5];
    float w_fc1[120][400];
@@ -23,7 +22,6 @@ int main(int argc, char** argv){
    int i,j,m,n,index;
    FILE *fp;
 
-    /* Load Weights from DDR->LMM */
    fp = fopen("C:/Users/Admins/Downloads/New folder/handwritten-digits-recognition-hls-main/data/weights/w_conv1.txt", "r");
    for(i=0;i<6;i++)
        fscanf(fp, "%f ",  &(w_conv1[i][0][0]));  fclose(fp);
