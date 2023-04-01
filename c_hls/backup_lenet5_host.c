@@ -1,7 +1,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "tensor.h"
 #include "backup_lenet5lib.c"
 
 
